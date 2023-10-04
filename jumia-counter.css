@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(238, 233, 233);
+}
+
+.container {
+  background-color: white;
+  width: 980px;
+}
+
+.first-section {
+  padding: 20px 0;
+}
+
+.cart-10 {
+  padding: 20px;
+  font-size: 25px;
+  border-bottom: 1px solid rgb(214, 208, 208);
+}
+
+.xr-img {
+  width: 150px;
+}
+.flex {
+  display: flex;
+}
+
+.iphone-h3 {
+  font-weight: 200;
+  margin: 5px 0;
+  font-size: 25px;
+}
+
+.seller {
+  color: gray;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.philly-cod {
+  color: black;
+  font-size: 22px;
+}
+
+.few-minute {
+  color: orange;
+  font-weight: 200;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.jumia-express-img {
+  width: 200px;
+}
+
+.delete-basket {
+  width: 20px;
+  margin-right: 15px;
+  margin-left: 30px;
+}
+
+.remove {
+  font-size: 22px;
+  color: orange;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.flex-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.price-slashed {
+  display: flex;
+  margin-top: 10px;
+}
+
+.slashed-price {
+  text-decoration: line-through;
+  margin-right: 20px;
+  font-size: 22px;
+  color: gray;
+}
+
+.percentage {
+  background-color: orange;
+  opacity: 0.7;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  gap: 25px;
+  margin-top: 50px;
+}
+
+.btn {
+  border: none;
+  background-color: orange;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: rgb(197, 130, 7);
+  transition: 1s;
+}
+
+.number {
+  font-size: 22px;
+}
+
+.border{
+  border: 1px solid rgb(244, 240, 240);
+  width: 98%;
+  margin: 0 10px;
+}
